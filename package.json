@@ -1,0 +1,25 @@
+{
+  "name": "mini-qiankun-demos",
+  "version": "1.0.0",
+  "description": "demos for mini-qiankun",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist/* && yarn workspaces run build && mv packages/react-demo/build dist/react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linyun-git/mini-qiankun-demos.git"
+  },
+  "keywords": [
+    "qiankun"
+  ],
+  "author": "linyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linyun-git/mini-qiankun-demos/issues"
+  },
+  "homepage": "https://github.com/linyun-git/mini-qiankun-demos#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
