@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import { Divider } from 'antd';
 
 import 'antd/dist/antd.min.css';
@@ -13,7 +13,7 @@ const About = lazy(() => import('./pages/About'));
 
 const RouteExample = () => {
   return (
-    <Router basename={window.__POWERED_BY_QIANKUN__ ? '/react-demo/' : process.env.PUBLIC_URL}>
+    <Router>
       <nav>
         <Link to="/">Home</Link>
         <Divider type="vertical" />
