@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mini-qiankun-demos/react-demo/static/css/main.c9be9530.chunk.css",
-    "main.js": "/mini-qiankun-demos/react-demo/static/js/main.dddfd3b9.chunk.js",
-    "main.js.map": "/mini-qiankun-demos/react-demo/static/js/main.dddfd3b9.chunk.js.map",
+    "main.js": "/mini-qiankun-demos/react-demo/static/js/main.f72de058.chunk.js",
+    "main.js.map": "/mini-qiankun-demos/react-demo/static/js/main.f72de058.chunk.js.map",
     "runtime-main.js": "/mini-qiankun-demos/react-demo/static/js/runtime-main.c8e7bcb4.js",
     "runtime-main.js.map": "/mini-qiankun-demos/react-demo/static/js/runtime-main.c8e7bcb4.js.map",
     "static/css/2.4eb19277.chunk.css": "/mini-qiankun-demos/react-demo/static/css/2.4eb19277.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.7a1df24a.chunk.js": "/mini-qiankun-demos/react-demo/static/js/3.7a1df24a.chunk.js",
     "static/js/3.7a1df24a.chunk.js.map": "/mini-qiankun-demos/react-demo/static/js/3.7a1df24a.chunk.js.map",
     "index.html": "/mini-qiankun-demos/react-demo/index.html",
-    "precache-manifest.0336efdadccbad0149e8d19a039e9f2a.js": "/mini-qiankun-demos/react-demo/precache-manifest.0336efdadccbad0149e8d19a039e9f2a.js",
+    "precache-manifest.be9e60bdcd6999fd53171b2c111301aa.js": "/mini-qiankun-demos/react-demo/precache-manifest.be9e60bdcd6999fd53171b2c111301aa.js",
     "service-worker.js": "/mini-qiankun-demos/react-demo/service-worker.js",
     "static/css/2.4eb19277.chunk.css.map": "/mini-qiankun-demos/react-demo/static/css/2.4eb19277.chunk.css.map",
     "static/css/main.c9be9530.chunk.css.map": "/mini-qiankun-demos/react-demo/static/css/main.c9be9530.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.4eb19277.chunk.css",
     "static/js/2.adf1b35b.chunk.js",
     "static/css/main.c9be9530.chunk.css",
-    "static/js/main.dddfd3b9.chunk.js"
+    "static/js/main.f72de058.chunk.js"
   ]
 }
