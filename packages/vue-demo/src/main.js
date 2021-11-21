@@ -17,7 +17,7 @@ let instance = null;
 function render(props = {}) {
   const { container } = props;
   router = new VueRouter({
-    base: window.__POWERED_BY_QIANKUN__ ? '/vue-demo' : '/mini-qiankun-demos/vue-demo',
+    base: window.__POWERED_BY_QIANKUN__ ? '/vue-demo/' : process.env.PUBLIC_PATH,
     mode: 'history',
     routes,
   });

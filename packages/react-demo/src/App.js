@@ -13,7 +13,7 @@ const About = lazy(() => import('./pages/About'));
 
 const RouteExample = () => {
   return (
-    <Router basename={window.__POWERED_BY_QIANKUN__ ? '/react-demo' : '/mini-qiankun-demos/react-demo'}>
+    <Router basename={window.__POWERED_BY_QIANKUN__ ? '/react-demo/' : process.env.PUBLIC_URL}>
       <nav>
         <Link to="/">Home</Link>
         <Divider type="vertical" />
