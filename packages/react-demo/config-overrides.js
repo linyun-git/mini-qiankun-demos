@@ -1,4 +1,4 @@
-const { name } = require('./package');
+const {name} = require('./package');
 const path = require("path");
 
 module.exports = {
@@ -7,7 +7,7 @@ module.exports = {
     config.output.libraryTarget = 'umd';
     config.output.jsonpFunction = `webpackJsonp_${name}`;
     config.output.globalObject = 'window';
-    config.output.path = path.resolve(__dirname, 'dist');
+    config.output.publicPath = process.env.PUBLIC_URL || '/';
 
     return config;
   },
@@ -25,5 +25,11 @@ module.exports = {
     config.liveReload = false;
 
     return config;
+  },
+
+  paths: function (paths, env) {
+    // ...add your paths config
+    paths.appBuild = path.join(path.dirname(paths.appBuild), '../../dist/react-demo')
+    return paths;
   },
 };

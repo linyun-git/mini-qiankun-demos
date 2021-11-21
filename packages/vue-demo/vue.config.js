@@ -15,6 +15,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
+  publicPath: process.env.PUBLIC_PATH || '/',
   outputDir: '../../dist/vue-demo',
   assetsDir: 'static',
   filenameHashing: true,

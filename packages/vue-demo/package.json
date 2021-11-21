@@ -4,7 +4,7 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --mode production"
   },
   "dependencies": {
     "core-js": "^3.3.2",
