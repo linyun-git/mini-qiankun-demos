@@ -27,7 +27,7 @@ export async function bootstrap() {
   console.log('[react16] react app bootstraped');
 }
 
-export async function mount(props) {
+export async function mount(props = {}) {
   console.log('[react16] props from main framework', props);
   storeTest(props);
   render(props);
