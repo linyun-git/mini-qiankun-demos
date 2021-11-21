@@ -12,7 +12,7 @@
     "start": "rescripts start",
     "build": "rescripts build",
     "test": "rescripts test",
-    "eject": "rescripts eject"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
