@@ -10,13 +10,17 @@ function render(props) {
 }
 
 function storeTest(props) {
-  props.onGlobalStateChange((value, prev) => console.log(`[onGlobalStateChange - ${props.name}]:`, value, prev), true);
-  props.setGlobalState({
-    ignore: props.name,
-    user: {
-      name: props.name,
-    },
-  });
+  if (props.onGlobalStateChange) {
+    props.onGlobalStateChange((value, prev) => console.log(`[onGlobalStateChange - ${props.name}]:`, value, prev), true);
+  }
+  if (props.setGlobalState) {
+    props.setGlobalState({
+      ignore: props.name,
+      user: {
+        name: props.name,
+      },
+    });
+  }
 }
 
 if (!window.__POWERED_BY_QIANKUN__) {
@@ -33,7 +37,7 @@ export async function mount(props = {}) {
   render(props);
 }
 
-export async function unmount(props) {
+export async function unmount(props = {}) {
   const { container } = props;
   ReactDOM.unmountComponentAtNode(container ? container.querySelector('#root') : document.querySelector('#root'));
 }

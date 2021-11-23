@@ -12,19 +12,20 @@ module.exports = {
     return config;
   },
 
-  devServer: _ => {
-    const config = _;
+  devServer: function(configFunction) {
+    return function(proxy, allowedHost) {
+      const config = configFunction(proxy, allowedHost);
+      config.headers = {
+        'Access-Control-Allow-Origin': '*',
+      };
+      config.historyApiFallback = true;
 
-    config.headers = {
-      'Access-Control-Allow-Origin': '*',
+      config.hot = false;
+      config.watchContentBase = false;
+      config.liveReload = false;
+
+      return config;
     };
-    config.historyApiFallback = true;
-
-    config.hot = false;
-    config.watchContentBase = false;
-    config.liveReload = false;
-
-    return config;
   },
 
   paths: function (paths, env) {
