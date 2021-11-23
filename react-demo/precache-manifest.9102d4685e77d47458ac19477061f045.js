@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da1b8e4291a7ef1a1196296dc6c1b23c",
+    "revision": "0117ca2f6e8b52a5dd2d27cf0c0c918a",
     "url": "/mini-qiankun-demos/react-demo/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-qiankun-demos/react-demo/static/css/2.4eb19277.chunk.css"
   },
   {
-    "revision": "38d9bd7131e680ba0335",
-    "url": "/mini-qiankun-demos/react-demo/static/css/main.c9be9530.chunk.css"
+    "revision": "d772a9f1679c2bc72c39",
+    "url": "/mini-qiankun-demos/react-demo/static/css/main.2f865207.chunk.css"
   },
   {
     "revision": "037df26b6a27bfff9235",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-qiankun-demos/react-demo/static/js/3.7a1df24a.chunk.js"
   },
   {
-    "revision": "38d9bd7131e680ba0335",
-    "url": "/mini-qiankun-demos/react-demo/static/js/main.59c3d98f.chunk.js"
+    "revision": "d772a9f1679c2bc72c39",
+    "url": "/mini-qiankun-demos/react-demo/static/js/main.2441433b.chunk.js"
   },
   {
     "revision": "76d2d588ea434b9edc9d",
