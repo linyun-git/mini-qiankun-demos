@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "182be08a1efde69e973aa2be0f4500e8",
+    "revision": "e5891440c6317d8e50154fb3715aa215",
     "url": "/mini-qiankun-demos/react-demo/index.html"
   },
   {
-    "revision": "e22754116dae4a5b8439",
+    "revision": "12bc2ede31368bc6dbec",
     "url": "/mini-qiankun-demos/react-demo/static/css/2.4eb19277.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-qiankun-demos/react-demo/static/css/main.c9be9530.chunk.css"
   },
   {
-    "revision": "e22754116dae4a5b8439",
-    "url": "/mini-qiankun-demos/react-demo/static/js/2.65bf9885.chunk.js"
+    "revision": "12bc2ede31368bc6dbec",
+    "url": "/mini-qiankun-demos/react-demo/static/js/2.43e086b2.chunk.js"
   },
   {
-    "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/mini-qiankun-demos/react-demo/static/js/2.65bf9885.chunk.js.LICENSE.txt"
+    "revision": "c6598a835c68722692f772a4f1c61dc6",
+    "url": "/mini-qiankun-demos/react-demo/static/js/2.43e086b2.chunk.js.LICENSE.txt"
   },
   {
     "revision": "0501645c9a21d08c9ba1",
