@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/mini-qiankun-demos/react-demo/static/css/main.2f865207.chunk.css",
-    "main.js": "/mini-qiankun-demos/react-demo/static/js/main.9380c131.chunk.js",
-    "main.js.map": "/mini-qiankun-demos/react-demo/static/js/main.9380c131.chunk.js.map",
-    "runtime-main.js": "/mini-qiankun-demos/react-demo/static/js/runtime-main.e2f67578.js",
-    "runtime-main.js.map": "/mini-qiankun-demos/react-demo/static/js/runtime-main.e2f67578.js.map",
+    "main.css": "/mini-qiankun-demos/react-demo/static/css/main.c9be9530.chunk.css",
+    "main.js": "/mini-qiankun-demos/react-demo/static/js/main.c5d4245f.chunk.js",
+    "main.js.map": "/mini-qiankun-demos/react-demo/static/js/main.c5d4245f.chunk.js.map",
+    "runtime-main.js": "/mini-qiankun-demos/react-demo/static/js/runtime-main.08b75d31.js",
+    "runtime-main.js.map": "/mini-qiankun-demos/react-demo/static/js/runtime-main.08b75d31.js.map",
     "static/css/2.4eb19277.chunk.css": "/mini-qiankun-demos/react-demo/static/css/2.4eb19277.chunk.css",
-    "static/js/2.43e086b2.chunk.js": "/mini-qiankun-demos/react-demo/static/js/2.43e086b2.chunk.js",
-    "static/js/2.43e086b2.chunk.js.map": "/mini-qiankun-demos/react-demo/static/js/2.43e086b2.chunk.js.map",
-    "static/js/3.fbd459a6.chunk.js": "/mini-qiankun-demos/react-demo/static/js/3.fbd459a6.chunk.js",
-    "static/js/3.fbd459a6.chunk.js.map": "/mini-qiankun-demos/react-demo/static/js/3.fbd459a6.chunk.js.map",
+    "static/js/2.65bf9885.chunk.js": "/mini-qiankun-demos/react-demo/static/js/2.65bf9885.chunk.js",
+    "static/js/2.65bf9885.chunk.js.map": "/mini-qiankun-demos/react-demo/static/js/2.65bf9885.chunk.js.map",
+    "static/js/3.1251e366.chunk.js": "/mini-qiankun-demos/react-demo/static/js/3.1251e366.chunk.js",
+    "static/js/3.1251e366.chunk.js.map": "/mini-qiankun-demos/react-demo/static/js/3.1251e366.chunk.js.map",
     "index.html": "/mini-qiankun-demos/react-demo/index.html",
-    "precache-manifest.196aa21e4779c21524a4e71e2c646add.js": "/mini-qiankun-demos/react-demo/precache-manifest.196aa21e4779c21524a4e71e2c646add.js",
+    "precache-manifest.e516740720d07118886c5a4eb6110721.js": "/mini-qiankun-demos/react-demo/precache-manifest.e516740720d07118886c5a4eb6110721.js",
     "service-worker.js": "/mini-qiankun-demos/react-demo/service-worker.js",
     "static/css/2.4eb19277.chunk.css.map": "/mini-qiankun-demos/react-demo/static/css/2.4eb19277.chunk.css.map",
-    "static/css/main.2f865207.chunk.css.map": "/mini-qiankun-demos/react-demo/static/css/main.2f865207.chunk.css.map",
-    "static/js/2.43e086b2.chunk.js.LICENSE.txt": "/mini-qiankun-demos/react-demo/static/js/2.43e086b2.chunk.js.LICENSE.txt"
+    "static/css/main.c9be9530.chunk.css.map": "/mini-qiankun-demos/react-demo/static/css/main.c9be9530.chunk.css.map",
+    "static/js/2.65bf9885.chunk.js.LICENSE.txt": "/mini-qiankun-demos/react-demo/static/js/2.65bf9885.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2f67578.js",
+    "static/js/runtime-main.08b75d31.js",
     "static/css/2.4eb19277.chunk.css",
-    "static/js/2.43e086b2.chunk.js",
-    "static/css/main.2f865207.chunk.css",
-    "static/js/main.9380c131.chunk.js"
+    "static/js/2.65bf9885.chunk.js",
+    "static/css/main.c9be9530.chunk.css",
+    "static/js/main.c5d4245f.chunk.js"
   ]
 }
