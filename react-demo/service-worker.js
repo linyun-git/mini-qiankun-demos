@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mini-qiankun-demos/react-demo/precache-manifest.7a2d13e0bc18cf4129d8723e610290ca.js"
+  "/mini-qiankun-demos/react-demo/precache-manifest.196aa21e4779c21524a4e71e2c646add.js"
 );
 
 self.addEventListener('message', (event) => {
